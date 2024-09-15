@@ -1,0 +1,22 @@
+.text {
+  background-color: yellow;
+  width: 50vw;
+  text-align: right;
+  height: 70vh;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 2vw;
+}
+
+.card {
+  background-color: purple;
+  width: 50vw;
+  height: 70vh;
+  margin-right: 5vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 2vw;
+}

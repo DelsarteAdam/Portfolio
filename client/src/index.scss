@@ -1,0 +1,30 @@
+@import "reset.css";
+
+.header {
+  height: 10vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.main {
+  background-color: red;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer {
+  background-color: green;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5vw;
+}
