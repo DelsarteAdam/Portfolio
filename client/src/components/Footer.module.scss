@@ -1,9 +1,16 @@
+@import "../TypoColor.scss";
+
 .link {
   display: flex;
   flex-direction: row;
   margin-left: 2vw;
-}
+  a {
+    margin-left: 2vw;
 
-.link a {
-  margin-left: 2vw;
+    svg {
+      height: 5vh;
+      width: 5vh;
+      fill: $darkGrey;
+    }
+  }
 }

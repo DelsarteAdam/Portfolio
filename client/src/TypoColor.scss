@@ -1,0 +1,68 @@
+$base: #273051;
+$lightGrey: #99969a;
+$accent: #eb9d3e;
+$darkGrey: #192030;
+
+@font-face {
+  font-family: "orkneybolditalic";
+  src: url("/fonts/orkney_bold_italic-webfont.woff2") format("woff2"),
+    url("/fonts/orkney_bold_italic-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "orkneybold";
+  src: url("/fonts/orkney_bold-webfont.woff2") format("woff2"),
+    url("/fonts/orkney_bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "orkneylight_italic";
+  src: url("/fonts/orkney_light_italic-webfont.woff2") format("woff2"),
+    url("/fonts/orkney_light_italic-webfont.woff") format("woff");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "orkneylight";
+  src: url("/fonts/orkney_light-webfont.woff2") format("woff2"),
+    url("/fonts/orkney_light-webfont.woff") format("woff");
+  font-weight: lighter;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "orkneymedium_italic";
+  src: url("/fonts/orkney_medium_italic-webfont.woff2") format("woff2"),
+    url("/fonts/orkney_medium_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "orkneymedium";
+  src: url("/fonts/orkney_medium-webfont.woff2") format("woff2"),
+    url("/fonts/orkney_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "orkneyitalic";
+  src: url("/fonts/orkney_regular_italic-webfont.woff2") format("woff2"),
+    url("/fonts/orkney_regular_italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "orkneyregular";
+  src: url("/fonts/orkney_regular-webfont.woff2") format("woff2"),
+    url("/fonts/orkney_regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

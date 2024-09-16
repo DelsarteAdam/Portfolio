@@ -1,13 +1,18 @@
+@import "../TypoColor.scss";
+
 .list {
   list-style: none;
   display: flex;
   justify-content: flex-start;
+  font-size: large;
+  li {
+    margin-right: 20px;
+  }
+  li:last-child {
+    margin-right: 0; // Removes margin for the last item
+  }
 }
 
-.list li {
-  margin-right: 20px;
-}
-
-.list li:last-child {
-  margin-right: 0; // Removes margin for the last item
+.orange {
+  color: $accent;
 }

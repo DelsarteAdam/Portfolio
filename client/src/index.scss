@@ -1,4 +1,14 @@
 @import "reset.css";
+@import "TypoColor.scss";
+
+* {
+  font-family: "orkneyregular";
+  color: $lightGrey;
+}
+
+body {
+  background-color: $base;
+}
 
 .header {
   height: 10vh;
@@ -12,7 +22,6 @@
 }
 
 .main {
-  background-color: red;
   height: 80vh;
   display: flex;
   flex-direction: row;

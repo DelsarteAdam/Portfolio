@@ -5,7 +5,7 @@ function Header() {
     <header className="header">
       <img src="#" alt="Logo" className={styles.logo} />
       <ul className={styles.list}>
-        <li>Galery</li>
+        <li className={styles.orange}>Galery</li>
         <li>Contact</li>
       </ul>
     </header>
