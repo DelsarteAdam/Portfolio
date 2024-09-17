@@ -17,6 +17,16 @@
   }
 }
 
+.textLabel {
+  margin-top: 3vh;
+  p {
+    font-family: "orkneybolditalic";
+    color: $lightGrey;
+    font-size: 2rem;
+    line-height: normal;
+  }
+}
+
 .card {
   width: 50vw;
   height: 70vh;
